@@ -1,8 +1,8 @@
 using System;
 using System.Text;
-using AnLog.Models;
+using ALogger.Models;
 
-namespace AnLog.Protocol;
+namespace ALogger.Protocol;
 
 /// <summary>
 /// 二进制日志协议
@@ -112,7 +112,7 @@ public class BinaryProtocol : LogProtocolBase
       // 5. 读取数据部分
       var message = reader.ReadString();
       var category = reader.ReadString();
-      var level = reader.ReadString();
+      var level = reader.ReadInt32();
       var timestamp = DateTime.FromBinary(reader.ReadInt64());
       
       return new LogEntry
@@ -185,10 +185,10 @@ public class BinaryProtocol : LogProtocolBase
       // 6. 使用 BinaryReader 解析数据
       using var ms = new MemoryStream(dataBuffer);
       using var reader = new BinaryReader(ms, Encoding.UTF8);
-      
+
       var message = reader.ReadString();
       var category = reader.ReadString();
-      var level = reader.ReadString();
+      var level = reader.ReadInt32();
       var timestamp = DateTime.FromBinary(reader.ReadInt64());
       
       return new LogEntry

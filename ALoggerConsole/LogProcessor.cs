@@ -1,6 +1,6 @@
-using System;
+using ALoggerConsole;
 
-namespace AnLogConsole;
+namespace ALoggerConsole;
 
 public class LogProcessor
 {

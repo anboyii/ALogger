@@ -1,8 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnLogConsole", "AnLogConsole\AnLogConsole.csproj", "{B6C5EAD1-42C2-430E-B82C-998ADCD9E586}"
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11304.161 d18.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALoggerConsole", "ALoggerConsole\ALoggerConsole.csproj", "{B6C5EAD1-42C2-430E-B82C-998ADCD9E586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnLog", "AnLog\AnLog.csproj", "{80C2EEFA-3394-4101-8662-C0063E34B776}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALogger", "ALogger\ALogger.csproj", "{80C2EEFA-3394-4101-8662-C0063E34B776}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

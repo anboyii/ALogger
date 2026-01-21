@@ -1,4 +1,4 @@
-namespace AnLogConsole;
+namespace ALoggerConsole;
 
 public class LogHost
 {

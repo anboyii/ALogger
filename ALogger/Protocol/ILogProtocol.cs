@@ -1,7 +1,7 @@
 using System;
-using AnLog.Models;
+using ALogger.Models;
 
-namespace AnLog.Protocol;
+namespace ALogger.Protocol;
 
 /// <summary>
 /// 日志协议接口 - 定义日志数据的序列化和反序列化规范

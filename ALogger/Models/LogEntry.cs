@@ -1,4 +1,4 @@
-namespace AnLog.Models;
+namespace ALogger.Models;
 
 public record class LogEntry
 {

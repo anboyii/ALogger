@@ -1,7 +1,7 @@
 using System;
-using AnLog.Models;
+using ALogger.Models;
 
-namespace AnLog.Receiver;
+namespace ALogger.Receiver;
 public interface ILogReceiver
 {
   Action<LogEntry> OnLogReceived { get; set; }  

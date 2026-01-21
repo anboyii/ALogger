@@ -1,7 +1,7 @@
 using System;
-using AnLog.Models;
+using ALogger.Models;
 
-namespace AnLog.Receiver;
+namespace ALogger.Receiver;
 
 public class IPCLogReceiver: ILogReceiver
 {
